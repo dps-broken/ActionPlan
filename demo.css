@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: fit-content;
+}
+#Mylist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+
+}
+li{
+    padding: 1vmax 5vmax;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 1vmax;
+}
+#button{
+    height: 3vmax;
+    width: 10vmax;
+    border: none;
+    border-radius: 30px;
+    margin-left: 2vmax;
+    font-size: 1vmax;
+
+}
+.delete{
+    padding: 8px 13px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: .5vmax;
+    position: relative;
+    right: -4vmax;
+}
+#Inpt{
+    height: 3vmax;
+    width: 30vmax;
+    margin: 3vmax 0;
+    border-radius: 30px;
+    padding: 1vmax;
+    font-size: 1vmax;
+    border: none;
+}
+h1{
+    color: white;
+    font-size: 3vmax;
+    margin: 3vmax 0;
+}
+@media screen and (min-width: 0px) and (max-width: 450px) {
+
+
+    #Inpt{
+        height: 5vmax;
+        font-size: 2vmax;
+    }
+
+    li{
+        font-size: 2vmax;
+    }
+    #button{
+        height: 4vmax;
+        margin-left: 3vmax;
+        font-size: 1.5vmax;
+        position: relative;
+        bottom: .2vh;
+    
+    }
+    h1{
+        color: white;
+        font-size: 4vmax;
+        margin: 4vmax 0;
+    }
+
+
+
+
+}
